@@ -8,7 +8,7 @@ import {
   Paper,
 } from "@mui/material";
 
-function Contactus() {
+function ContactUs() {
   return (
     <Container maxWidth="sm" sx={{ mt: 4, mb: 2 }}>
       <Paper elevation={3} sx={{ p: 4, borderRadius: 3 }}>
@@ -54,4 +54,4 @@ function Contactus() {
     </Container>
   );
 }
-export default Contactus;
+export default ContactUs;

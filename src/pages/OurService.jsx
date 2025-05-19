@@ -3,11 +3,9 @@ import { GiElectric } from "react-icons/gi";
 import {
   FaMobileAlt,
   FaLock,
-  FaChargingStation,
   FaShieldAlt,
   FaWrench,
   FaRoute,
-  FaBatteryThreeQuarters,
 } from "react-icons/fa";
 import { MdOutlineDevicesFold, MdColorLens } from "react-icons/md";
 

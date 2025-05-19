@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
-import Contactus from "./pages/contactus";
+import ContactUs from "./pages/contactus";
 import Community from "./pages/Community";
 import NotFound from "./pages/NotFound";
 import OurService from "./pages/OurService";
@@ -21,7 +21,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/community" element={<Community />} />
           <Route path="/swift-club" element={<SwiftClubPage />} />          
-          <Route path="/contact-us" element={<Contactus />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
