@@ -99,7 +99,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            SwiftCycle
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', 'justifyContent': 'space-around' } }}>
             {pages.map((page) => (

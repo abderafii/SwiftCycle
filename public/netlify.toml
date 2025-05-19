@@ -2,3 +2,6 @@
 from = "/*"
 to = "/index.html"
 status = 200
+from = "/our-service"
+to = "/our-service"
+status = 200
